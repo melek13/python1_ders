@@ -107,43 +107,6 @@ isim giriniz   :mlk
 isim
 
 
-[ ]
-###  burgerking.com.tr
-### kullanıcıdan isim iste
-### bu kişiye mail adresi oluştur.
-### örnek: hasancagri@burgerking.com.tr
-[ ]
-isim=input("isminizi giriniz  :")
-isim=isim.replace(" ","")
-isim=isim.replace("ç","c")
-isim=isim.replace("ş","s")
-isim=isim.replace("ğ","g")
-isim=isim.replace("ı","i")
-isim=isim.replace("ü","u")
-isim=isim.replace("ö","o")
-isim=isim.lower()
-mail="@burgerking.com.tr"
-mailadresi=isim+mail
-print(mailadresi)
-isminizi giriniz  :mlk
-mlk@burgerking.com.tr
-
-
-[ ]
-#isim=input("isminizi giriniz  :")
-isim=isim.lower()
-isim=isim.replace(" ","")
-isim=isim.replace("ç","c")
-isim=isim.replace("ş","s")
-isim=isim.replace("ğ","g")
-isim=isim.replace("ı","i")
-isim=isim.replace("ü","u")
-isim=isim.replace("ö","o")
-mail="@burgerking.com.tr"
-mailadresi=isim+mail
-print(mailadresi)
-isminizi giriniz  :HASAN ÇAĞRI GÜNGÖR
-hasancagrigungor@burgerking.com.tr
 
 
 [ ]
